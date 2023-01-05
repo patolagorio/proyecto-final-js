@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pato Palas PREMIUM</title>
+    <link rel="icon" href="img/carrito.png" type="image/jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script defer src="js/templates.js"></script>
+    <script defer src="js/dom.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="btn-checkout">
+            <a href="checkout.html">
+                <span class="palasEnCarrito"></span>
+                <img src="" id="imgCarrito" alt="Carrito">
+            </a>
+        </div>
+        <h1 id="titulo"></h1>
+        <p id="slogan"></p>
+        <hr>
+        <input type="search" list="ultimasBusquedas" id="inputSearch" placeholder="Ingresa el producto a buscar"
+            class="">
+
+        <hr>
+    </header>
+    <main>
+        <div class="container" id="container">
+            <div class="card" id="card${id}">
+                <div class="card-image">${imagen}</div>
+                <div class="card-name">${nombre}</div>
+                <div class="card-price">$ ${precio.toFixed(2)}</div>
+                <div class="card-button">
+                    <button class="button button-outline button-add" id="${id}"
+                        title="Clic para agregar '${nombre}' al carrito"><img id="btnCarrito" src=""></button>
+                </div>
+            </div>
+            <div class="card" id="card${id}">
+                <div class="card-image">${imagen}</div>
+                <div class="card-name">${nombre}</div>
+                <div class="card-price">$ ${precio.toFixed(2)}</div>
+                <div class="card-button">
+                    <button class="button button-outline button-add" id="${id}"
+                        title="Clic para agregar '${nombre}' al carrito"><img class="btnCarrito" src="img/carrito.png"></button>
+                </div>
+            </div>
+            <div class="card" id="card${id}">
+                <div class="card-image">${imagen}</div>
+                <div class="card-name">${nombre}</div>
+                <div class="card-price">$ ${precio.toFixed(2)}</div>
+                <div class="card-button">
+                    <button class="button button-outline button-add" id="${id}"
+                        title="Clic para agregar '${nombre}' al carrito"><img class="btnCarrito" src="img/carrito.png"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+
+    </footer>
+</body>
+
+</html>

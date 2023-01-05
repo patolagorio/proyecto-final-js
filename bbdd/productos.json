@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imagen":"img/babolat.jpg",
+        "nombre": "Babolat Technical Viper",
+        "precio": 120000
+    },
+    {
+        "id": 2,
+        "imagen": "img/bull.jpg",
+        "nombre": "BullPadel Hack03",
+        "precio": 140000
+    },
+    {
+        "id": 3,
+        "imagen": "img/adidas.jpg",
+        "nombre": "Adidas Metalbone CTRL",
+        "precio": 135000
+    },
+    {
+        "id": 4,
+        "imagen": "img/head.jpg",
+        "nombre": "Head Delta PRO",
+        "precio": 115000
+    },
+    {
+        "id": 5,
+        "imagen": "img/siux.jpg",
+        "nombre": "Siux Sanyo",
+        "precio": 155000
+    }
+]
